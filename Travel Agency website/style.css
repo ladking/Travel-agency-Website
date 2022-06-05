@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+	min-width: 960px;
+}
+ .container{
+	width:960px;
+	margin: 0 auto;
+	overflow: auto;
+ }
+.header{
+  text-align: center;
+  	width: 100%;
+}
+
+.navbar{
+  font-weight: bold;
+  background-image: url(blacktile.jpg);
+  background-repeat: repeat-x;
+}
+.navbar ul, .footer ul{
+  list-style-type: none;
+  margin:0px;
+  padding: 20px 0px;
+}
+
+li{
+  display: inline;
+  margin:20px;
+}
+ .navbar a, .footer a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  border-bottom:5px solid lightgray;
+}
+a:active{
+  border-bottom: 3px solid black;
+}
+.main{
+  text-align: center;
+  color:#505E67;
+  margin: 40px;
+}
+h1{
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 2.2em;
+  margin-top:50px;
+  border-bottom: 1px dashed lightgray;
+}
+.main img{
+  width: 70%;
+  padding:2px;
+  border:1px solid lightgray;
+}
+.customerbox{
+  border:2px outset lightgray;
+  width:60%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.main h1{
+  font-size: 1.2em;
+  margin-top:0px;
+  padding: 10px;
+}
+.customerbox p{
+  padding: 0px 10px;
+}
+.customerbox h2{
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 10px;
+  border-top: 1px dashed lightgray;
+}
+.floatleft{
+  margin-left: 15%;
+  float:left;
+}
+.floatright{
+  margin-right: 15%;
+  float:right;
+}
+.clearfloat{
+  clear: both;
+}
+table{
+  border:1px solid lightgray;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+th, td{
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+th{
+  background-color: #505E67;
+  color:white;
+  font-size: 1.2em;
+}
+tr:nth-child(odd) {
+  background-color: #E6E6E6;
+}
+.footer{
+  text-align: center;
+  width: 100%;
+  background-color: #232244;
+  color: white;
+}
+.footer a{
+  color:white;
+}
+#contactus{
+  width: 150px;
+  height: 30px;
+  background-color: #26244B;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+#contactus a{
+  color: white;
+  text-decoration: none;
+}
